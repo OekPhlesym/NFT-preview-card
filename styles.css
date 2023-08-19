@@ -1,0 +1,125 @@
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background:  hsl(217, 54%, 11%)
+    }
+
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+
+h2{
+    color: hsl(0, 0%, 100%);
+    font-size: medium;
+    font-weight: 100;
+}
+
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    height: 100vh;
+    background: hsl(216, 50%, 16%);
+    height: 360px;
+    width: 325px;
+    padding: 20px 23px 290px 23px;
+    margin: 100px 550px;
+    border-radius: 35px 35px 35px 35px;
+}
+
+#avatar{
+    height: 300px;
+    width: 315px;   
+    border-radius: 5%; 
+    margin:5px 5px 5px 5px;
+}
+
+.text {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-family: outfit, sans-serif;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+    position: relative;
+    top: -17px;
+}
+
+#icon-ethereum {
+    position: relative;
+    top: 15px;
+}
+
+#currency {
+    color: hsl(178, 100%, 50%);
+    font-size: 15px;
+    font-weight: 100;
+    position: relative;
+    top: -21px;
+    left: 20px;
+}
+
+#title{
+    font-weight: 550;
+    font-family: "Outfit";
+}
+
+#days{
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    bottom: 2px;
+}
+
+.border {
+    border-bottom: solid hsl(215deg 11.12% 34.01%) 1px;
+    margin-bottom: 15px;
+}
+
+#artist{
+    color: hsl(0, 0%, 100%);
+    font-size: large;
+    font-weight: 100;
+}
+
+.profileImage{
+    border: solid white;
+    border-radius: 35px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.profile{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.ident {
+    display: flex;
+    padding-left: 35px;
+    font-size: large;
+    font-weight: 100 ;
+}
+
+#textcolor {
+    color: hsl(215, 51%, 70%);
+}
+
+#clockSymbol{
+    left: -13px;
+    position: absolute;
+}
