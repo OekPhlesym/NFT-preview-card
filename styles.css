@@ -1,129 +1,121 @@
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        background:  hsl(217, 54%, 11%)
-    }
-
-
-h1 {
-    color: hsl(0, 0%, 100%);
-    font-size: 30px;
-    font-weight: 300;
-    text-align: left;
+body{
+    position: fixed;
+    left: 180px;
+    top: 100px;
+    background-color: whitesmoke;
 }
 
-h2{
-    color: hsl(0, 0%, 100%);
-    font-size: medium;
+.normalFont {
+    font-weight: 300;
+    font-size: 37px;
+    color: hsl(234, 12%, 34%);
+    letter-spacing: -1.5px;
+}
+
+.boldFont{
+    font-family: Poppins;
+    font-weight: 900;
+    font-size: larger;
+    color: hsl(234, 12%, 34%);
+    letter-spacing: -1px;
+}
+
+.introText{
+    color: hsl(229, 6%, 66%);
     font-weight: 100;
 }
 
-.conatiner {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: left;
-    height: 100vh;
-    background: hsl(216, 50%, 16%);
-    height: 360px;
-    width: 325px;
-    padding: 20px 23px 290px 23px;
-    margin: 100px 550px;
-    border-radius: 35px 35px 35px 35px;
-}
-
-#avatar{
-    height: 300px;
-    width: 315px;   
-    border-radius: 5%; 
-    margin:5px 5px 5px 5px;
-}
-
-.text {
-    color: hsl(0, 0%, 100%);
-    font-size: 20px;
-    font-family: outfit, sans-serif;
-}
-
-.price {
+.mainContainer{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 10px 10px;
-    position: relative;
-    top: -17px;
 }
 
-#icon-ethereum {
-    position: relative;
-    top: 15px;
+.leftContainer, .rightContainer{
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px 75px 30px 30px;
+    height: 150px;
+    width: 260px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 130px;
+    color: hsl(229, 6%, 66%);
 }
 
-#currency {
-    color: hsl(178, 100%, 50%);
-    font-size: 15px;
-    font-weight: 100;
-    position: relative;
-    top: -21px;
-    left: 20px;
-}
-
-#title{
-    font-weight: 550;
-    font-family: "Outfit";
-}
-
-#days{
-    color: hsl(215, 51%, 70%);
-    position: relative;
-    bottom: 2px;
-}
-
-.border {
-    border-bottom: solid hsl(215deg 11.12% 34.01%) 1px;
-    margin-bottom: 15px;
-}
-
-#artist{
-    color: hsl(0, 0%, 100%);
-    font-size: large;
-    font-weight: 100;
-}
-
-.profileImage{
-    border: solid white;
-    border-radius: 35px;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    justify-content:space-between;
-}
-
-.profile{
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.ident {
-    display: flex;
-    padding-left: 35px;
-    font-size: large;
-    font-weight: 100 ;
-}
-
-#textcolor {
-    color: hsl(215, 51%, 70%);
-}
-
-#textcolor2 {
-    color: hsl(215, 51%, 70%);
-}
-
-#clockSymbol{
-    left: -13px;
+.supervisorImage{
     position: absolute;
+    left: 280px;
+    top: 440px;
+}
+
+.middleContainerTop, .middleContainerBottom{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 75px 30px 30px;
+    height: 170px;
+    width: 260px;
+    margin-bottom: 30px;
+    color: hsl(229, 6%, 66%)
+}
+
+.topic {
+    font-weight: 100;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-size: medium;
+    letter-spacing: -0.45px;
+
+ }
+
+.leftTopic, .rightTopic, .middleBottomTopic, .middleTopTopic{
+    font-weight: 700;
+    font-size: large;
+    color: hsl(234, 12%, 34%);
+}
+
+.middleContainerTop{
+    border-top: solid  hsl(0, 78%, 62%) 7px;
+    margin-top: 30px;
+}
+
+.middleContainerBottom{
+    border-top: solid  hsl(34, 97%, 64%) 7px;
+}
+
+.leftContainer{
+    border-top: solid hsl(180, 62%, 55%)7px;
+}
+
+.teambuilderImage{
+    position: absolute;
+    left: 670px;
+    top: 330px;
+}
+
+.calculatorImage{
+    position: absolute;
+    right: 60px;
+    top: 440px;
+}
+
+.karmaImage{
+    position: absolute;
+    left: 670px;
+    top: 580px;
+}
+
+.rightContainer{
+    border-top: solid hsl(212, 86%, 64%) 7px;
+}
+
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
 }
